@@ -1,0 +1,10 @@
+https://www.reddit.com/login/?experiment_d2x_sso_login_link=enabled
+#https://www.reddit.com  <-- commented out because iframes seems to be working differently than expected.
+
+Test Case: Trying to login to reddit with a random username/password will fail.
+#    click   xpath   //*[text() = 'Log In'] # Click login button <-- commented out because reddit uses iframes and the DOM for the loginUsername doesn't actually seem to render until a user clicks on it.  Strange.
+    click   xpath   //*[@id='loginUsername']
+    type    id      random
+    click   id      loginPassword
+    type    id      password
+    click   xpath   //fieldset[5]/button

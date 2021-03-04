@@ -1,0 +1,6 @@
+xpath,click,//*[text() = 'Log In']
+xpath,click,//*[@id='loginUsername']
+id,type,random
+id,click,loginPassword
+id,type,password
+xpath,click,//fieldset[5]/button
