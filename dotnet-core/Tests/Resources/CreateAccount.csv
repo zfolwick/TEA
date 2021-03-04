@@ -1,0 +1,11 @@
+text,click,Sign in
+id,click,login-username
+id,type,random
+id,click,createacc
+id,click,usernamereg-firstName
+id,type,random
+id,click,usernamereg-lastName
+id,type,random
+id,click,usernamereg-yid
+id,type,random
+//*[@id="loginUsername"]
